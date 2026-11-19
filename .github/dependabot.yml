@@ -6,8 +6,7 @@ updates:
     directory: "/"
     target-branch: "nightly"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     groups:
       actions:
         patterns:
@@ -18,8 +17,7 @@ updates:
     directory: "/api_service"
     target-branch: "nightly"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     groups:
       python-deps:
         update-types:
@@ -31,8 +29,7 @@ updates:
     directory: "/client"
     target-branch: "nightly"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     groups:
       npm-deps:
         update-types:
